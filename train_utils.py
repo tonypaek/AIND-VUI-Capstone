@@ -78,3 +78,7 @@ def train_model(input_to_softmax,
     # save model loss
     with open('results/'+pickle_path, 'wb') as f:
         pickle.dump(hist.history, f)
+        
+        
+        
+        
